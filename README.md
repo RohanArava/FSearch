@@ -19,17 +19,17 @@ Running the System:
     Now open a web browser and navigate to "http://localhost:3006"  
   
 Functionalities:  
-    Search:  
-        Users can enter their search query in the search bar to get matched results.  
-    Execution Details:  
-        Users can see the details, like the time of the execution, at the top of the page.  
-    Evaluation:  
-        Clicking the Circled Check Icon in the header starts the evaluation mode.  
-        Now there will be checkboxes next to the retrieved articles.  
-        Check the relevant checkboxes.  
-        Click the hamburger menu icon to see the P-R curve of retrieved articles.  
-    Relevance Feedback:   
-        Below the P-R curve, You can find the "Submit Relevance Feedback" button.  
-        Click the Button to submit the feedback.  
-        Close the sidebar by clicking on the hamburger menu icon again, and refresh page.  
-        Now, previously selected documents will be higher up in the list.  
+- Search:  
+    Users can enter their search query in the search bar to get matched results.  
+- Execution Details:  
+    Users can see the details, like the time of the execution, at the top of the page.  
+- Evaluation:  
+    Clicking the Circled Check Icon in the header starts the evaluation mode.  
+    Now there will be checkboxes next to the retrieved articles.  
+    Check the relevant checkboxes.  
+    Click the hamburger menu icon to see the P-R curve of retrieved articles.  
+- Relevance Feedback:   
+    Below the P-R curve, You can find the "Submit Relevance Feedback" button.  
+    Click the Button to submit the feedback.  
+    Close the sidebar by clicking on the hamburger menu icon again, and refresh page.  
+    Now, previously selected documents will be higher up in the list.  
