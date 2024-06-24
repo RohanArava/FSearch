@@ -1,0 +1,55 @@
+.userHeader{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 4em;
+    margin: 0;
+    /* box-shadow: 0px 0px 10px black; */
+    display: grid;
+    grid-template-columns: 3fr 10fr 0.5fr 0.5fr;
+    align-items: center;
+    padding: 0em 1em;
+}
+.user{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.searchbar{
+    padding: 0.5em;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    column-gap: none;
+    margin: none;
+}
+
+.searchbar input{
+    width: 70%;
+    height: 3em;
+    background-color: rgb(36, 38, 35);
+    border: none;
+    color: #aaa;
+    border-radius: 1em 0 0 1em;
+    padding: 10px;
+
+}
+.searchbar input:focus{
+    outline: none;
+}
+
+.searchbar button{
+    height: 3em;
+    /* width: 10%; */
+    padding: 0 1em;
+    margin-right: 2em;
+    background-color: rgb(31, 33, 30);
+    border: none;
+    /* border-left: 1px solid black; */
+    border-radius: 0 1em 1em 0;
+}

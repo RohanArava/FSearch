@@ -1,0 +1,64 @@
+.serviceWrap{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 3em;
+    overflow-y: scroll;
+    
+}
+
+.serviceUp{
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.serviceImage{
+    height: 15em;
+    width: 100%;
+    /* padding: 1em; */
+    border-radius: 40px;
+    box-shadow: 7px 7px 7px 4px #000;
+}
+
+.details{
+    padding: 1em 0;
+}
+
+.contactWrap{
+    display: flex;
+}
+
+.contactIcon{
+    /* padding-top: 5px; */
+    width: fit-content;
+}
+.padx-8{
+    padding: 0 6em;
+}
+
+.contactInfo{
+    width: fit-content;
+    padding-right: 1em;
+}
+
+.serviceDown{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    column-gap: 1em;
+    height: 100%;
+}
+
+.reviewItem{
+    padding: 1em;
+    border-radius: 1em;
+    margin: 1em 1em 1em 0;
+}
+
+.ratings{
+    overflow-y: scroll;
+    height: 52vh;
+}

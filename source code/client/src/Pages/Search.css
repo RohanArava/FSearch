@@ -1,0 +1,28 @@
+.SearchWrap{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 10em;
+
+}
+
+.results{
+    overflow-y: scroll;
+    height: 90vh;
+}
+
+.searchItem{
+    padding: 1em;
+    border-radius: 10px;
+    margin: 1em;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.searchImage{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
